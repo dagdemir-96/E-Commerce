@@ -1,0 +1,56 @@
+.footer {
+  background-color: $main-color;
+  margin-top: 50px;
+  padding: 40px 10px;
+  &-c {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    gap: 16px;
+  }
+  &-box {
+    display: flex;
+    flex-direction: column;
+    h2 {
+      color: $bg-color;
+      text-transform: uppercase;
+      font-size: 128px;
+    }
+
+    .social {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      a {
+        background-color: $bg-color;
+        padding: 10px;
+        font-size: 17px;
+        border-radius: 50%;
+        i {
+          color: $main-color;
+        }
+      }
+    }
+
+    h3 {
+      color: $bg-color;
+      font-size: 25px;
+    }
+
+    ul {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      li {
+        a {
+          color: $bg-color;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    padding: 50px;
+    color: $bg-color;
+  }
+}
